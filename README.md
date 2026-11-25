@@ -97,6 +97,12 @@ Four summary rows come out. `South` and `south` became one group, `"$1,200.00"` 
 
 Add `"sortBy": "orders", "sortDirection": "desc", "topN": 10, "includeTotalsRow": true` to the same call for a top 10 with a grand total, or `"dateBucketField": "orderedAt"` for one row per region per month.
 
+## Skills
+
+This server also publishes ready-made playbooks (Skills over MCP), so Claude and other agents know the steps for the whole job, not just each tool. Each is a `SKILL.md` at `skill://<name>/SKILL.md`, listed by `skills/list` and `resources/list`, read with `resources/read`.
+
+- `summarise-dataset-pivot`: Summarise a list of JSON rows like a pivot table or SQL GROUP BY: totals, counts, averages and medians per group, per month or week, with a totals row and top N.
+
 ## Limits
 
 - Up to **500 rows per call**. Anything larger returns a clear message rather than failing silently. Batches can be summarised separately for sum, count, min and max, and an average rebuilt as total sum divided by total count, but a median or a distinct count cannot be combined across batches.
