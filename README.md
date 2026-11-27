@@ -119,3 +119,7 @@ Your rows are processed in memory and never stored. To see which tools get used,
 The same engine runs on the Apify Store as [Dataset Aggregate, Group By & Pivot](https://apify.com/nerolabs/dataset-aggregate-pivot), which also reads Apify datasets, CSV, TSV, Excel, JSON and JSON Lines files and Google Sheets by URL, handles up to 200,000 rows per run, exports the summary as a CSV or Excel file, appends it to a named dataset that accumulates across scheduled runs, and posts it to a webhook.
 
 Built by **Nero Labs**.
+
+## Gemini CLI
+
+- **Gemini CLI:** `gemini extensions install https://github.com/Nero-Engine/dataset-aggregate-pivot-mcp`

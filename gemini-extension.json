@@ -1,0 +1,12 @@
+{
+  "name": "dataset-aggregate-pivot",
+  "version": "0.2.0",
+  "description": "GROUP BY and pivot tables for JSON rows: 11 functions, date buckets, top N, totals, messy numbers.",
+  "mcpServers": {
+    "dataset-aggregate-pivot": {
+      "httpUrl": "https://dataset-aggregate-pivot.nerolabs.workers.dev/mcp",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
