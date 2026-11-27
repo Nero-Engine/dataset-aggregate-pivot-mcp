@@ -1,5 +1,7 @@
 # Dataset Aggregate & Pivot (Remote MCP Server)
 
+[![Dataset Aggregate & Pivot (Remote MCP Server) MCP connector](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-aggregate-pivot/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-aggregate-pivot)
+
 **SQL GROUP BY and spreadsheet pivot tables for messy JSON rows, in a single tool call.** Hand it a list of rows from a scraper, an API or a spreadsheet, say what to group by and what to compute, and it hands back one clean summary row per group plus an exact account of anything it skipped.
 
 Built for AI agents. No install, no API key, no signup. Connect by URL and call it.
